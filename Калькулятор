@@ -1,0 +1,18 @@
+a = input ('Введи действие: ')
+b = int (input ('Введи число: '))
+c = int (input ('Введи число: '))
+while a != 'выход':    
+
+
+
+    if b == '*':
+        print(a * c)
+    elif b == '+':
+        print(a + c)
+    elif b == '-':
+        print(a - c)
+    elif b == ':':
+        print (a / c)
+    a = input ('Введи действие: ')
+    b = int(input ('Введи число: '))
+    c = int(input ('Введи число: '))
